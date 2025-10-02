@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import firstMovie from './images/warOfworlds.webp'
+import secondMovie from './images/RougeImage.jpg'
+
 
 import './App.css'
 
@@ -17,7 +19,7 @@ function App() {
       <h1>Sci-Fi Cinema</h1>
 
       <h3>War of worlds</h3>
-      <img src={firstMovie}  alt="Vite logo"/>
+      <img src={firstMovie}  alt="warWorlds"/>
       <ul>
         <li>Based from a novel in 1897</li>
         <li>One of the earliest alien invasion movies</li>
@@ -29,6 +31,15 @@ function App() {
         <li>The work was accurate enough that it inspired a new scientific discovery about how light behaves</li>
         <li>Has various adaptations</li>
       </ul>
+
+      <h3>Rouge One</h3>
+      <img src={secondMovie}  alt="rogueOne" class/>      
+      <ul>
+        <li>First stand alone film in the star wars franchise</li>
+        <li>The work was accurate enough that it inspired a new scientific discovery about how light behaves</li>
+
+      </ul>
+
     </>
   )
 }
