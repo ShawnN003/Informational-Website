@@ -11,17 +11,13 @@ function App() {
   return (
     <>
       <div>
-        <a href="src/images/warOfworlds.webp" target="_blank">
-          <img src={firstMovie}  alt="Vite logo"/>
-        </a>
-        <a href="" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo"/>
-        </a>
       </div>
       
       <h1>Sci-Fi Cinema</h1>
 
       <h3>War of worlds</h3>
+      <img src={firstMovie}  alt="Vite logo"/>
       <ul>
         <li>Based from a novel in 1897</li>
         <li>One of the earliest alien invasion movies</li>
