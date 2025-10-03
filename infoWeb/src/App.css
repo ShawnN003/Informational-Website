@@ -36,12 +36,14 @@ body{
   will-change: filter;
   transition: filter 300ms;
 }
-h1,h3{
+h1,h2,h3{
   color: white;
 }
 .imgChanges {
   border-radius: 50px;
   padding: 5px;
+  width: 250px;
+  height: 350px;
 }
 
 

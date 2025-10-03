@@ -1,4 +1,4 @@
-import reactLogo from './assets/react.svg'
+
 import firstMovie from './images/warOfworlds.webp'
 import secondMovie from './images/RougeImage.jpg'
 import thirdMovie from './images/interstellar.jpg'
@@ -12,8 +12,8 @@ function App() {
     <>
       <div id="header">
               <h1>Sci-Fi Cinema</h1>
-
-          <img src={reactLogo} className="logo react" alt="React logo"/>
+              <h2>Three Movies With Interesting Facts</h2>
+          
       </div>
       
       <div className='movieList'>
@@ -41,6 +41,7 @@ function App() {
         <ul>
           <li>First stand alone film in the star wars franchise</li>
           <li>The work was accurate enough that it inspired a new scientific discovery about how light behaves</li>
+          <li>The filmmakers used a combination of practical effects and CGI to create the film's stunning visuals. This blend of old and new techniques gave "Rogue One" its unique look.</li>
         </ul>
       </div>
     </>
